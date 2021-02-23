@@ -1,0 +1,20 @@
+São descarregados 2 Ficheiros. https://lab1-22002611.herokuapp.com/
+
+O ficheiro lab1-22002611.herokuapp.com é do tipo document  e timing de espera é de 66ms.
+
+O ficheiro Wordcloud.png é do tipo png. e o timing de espera é de 0ms.
+
+Preview -  No 1 ficheiro aparece a parte do texto que é mostrada no site.
+        -  No 2 ficheiro aparece a imagem q será apresentada.
+
+Headres - Em ambos os ficheiros mostra Informações gerais do site.
+	-Exemplos: 
+	- Request UR, Request Method, Remote Address.
+	
+	No ficheiro 2 são apresentadas mais informações como a data de modificação e Content-Lenght.
+
+Timing - No 1 ficheiros mostra os tempos de Resquest/Response, Waiting, Download.
+	
+	- No 2 Ficheiro mostra só o tempo de Connection Start e o de Request/reponse.
+
+
