@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rita Santos">
+        <meta name="keywords" content="palavras chave">
+        <meta name="description" content="Website sobre Lisboa">
+        <title>Roma</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/Flag-of-Italy.ico"/>
+    </head>
+    <body>
+        <body style="background-color:plum"></body>
+        <h1><b>Roma</b></h1>
+        <hr>
+        <img src="images/roma.png">
+        <br>
+        <a href="index.html"> <b>Introdução</b> </a> | <a href="local.html">Localização</a> | <a href="multimedia.html">Multimédia</a> | <a href="info.html">Informações</a> | <a href="../index.html">Home</a> | <a href="quizz.html">Quizz</a>| <a href="comentarios.html">Comentários</a>
+
+        <h3>Comentários</h3>
+
+        <form action_"GET">
+            <fieldset>
+            <label for="clareza">Clareza (compreensível, em que o significado pode ser identificado sem que haja confusão ou ambiguidade.)</label>
+            <select id="clareza" name="clareza">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="rigor">rigor (livre de erros)</label>
+            <select id="rigor" name="rigor">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="precisao">precisão (exato, segundo o nível necessário do pormenor)</label>
+            <select id="precisao" name="precisao">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="profundidade">profundidade (contém complexidades e múltiplas inter-relações)</label>
+            <select id="profundidade" name="profundidade">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="amplitude">amplitude (que abrange diferentes aspectos, pontos de vista, pespectivas)</label>
+            <select id="amplitude" name="amplitude">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="logica">lógica (em que as partes fazem sentido num todo, sem contradições: faz sentido no conjunto, provém de evidências)</label>
+            <select id="logica" name="logica">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="significancia">significância (focado no importante, não trivial)</label>
+            <select id="significancia" name="significancia">
+              <option value="muitoBom">Muito bom</option>
+              <option value="bom">Bom</option>
+              <option value="medio" selected>Médio</option>
+              <option value="mau">Mau</option>
+              <option value="pessimo">Péssimo</option>
+              </select>
+              <br>
+              <br>
+
+              <label for="originalidade">Originalidade (criativo e original)</label>
+              <br>
+
+              <input type="checkbox" id="original" name="text" value="original">
+            <label for="original">Original</label><br> 
+            <input type="checkbox" id="OriginalCriativo" name="text" value="OriginalCriativo">
+            <label for="OriginalCriativo">Original e Criativo</label><br>        
+            <input type="checkbox" id="criativo" name="text" value="criativo">
+            <label for="criativo">Criativo</label><br> 
+              <br>
+              <br>
+
+              <label for="fname"> Recomendaria este site??</label><br>
+              <input type="radio" id="sim" name="text" value="sim">
+              <label for="sim">Sim</label><br> 
+              <input type="radio" id="nao" name="text" value="nao">
+              <label for="nao">Não</label><br>
+              <br>
+
+              <h3>Sugestões</h3>
+             <textarea name="message" rows="10" cols="30">Deixe uma Sugestão</textarea>
+             <br>
+             <br>
+        </fieldset>
+        </form>
+        <br>
+        <hr>
+        <br>
+      
+
+        <svg width="600" height="600">
+          <g transform="translate(100,100)"> 
+            <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:20; visibility:hidden"> <a href="index.html">Introdução</a>
+              <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+              <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+              <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+            </text> 
+        
+            <text id="TextElement" x="0" y="10" style="font-family:Verdana;font-size:7; visibility:hidden"><a href="local.html">Localização</a> 
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+              </text>
+        
+            <text id="TextElement" x="43" y="10" style="font-family:Verdana;font-size:7; visibility:hidden"><a href="multimedia.html">Multimédia</a> 
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+            </text>
+        
+        
+            <text id="TextElement" x="89" y="10" style="font-family:Verdana;font-size:7; visibility:hidden"><a href="quizz.html">Quizz</a> 
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+            </text>
+        
+            <text id="TextElement" x="0" y="20" style="font-family:Verdana;font-size:8; visibility:hidden"><a href="info.html">Informações</a> 
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+            </text>
+        
+            <text id="TextElement" x="58" y="20" style="font-family:Verdana;font-size:8; visibility:hidden"><a href="comentarios.html">Comentários</a> 
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+            </text>
+          </g> 
+        </svg>
+        
+</body>
+</html>
