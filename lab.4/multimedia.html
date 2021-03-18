@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rita Santos">
+        <meta name="keywords" content="palavras chave">
+        <meta name="description" content="Website sobre Lisboa">
+        <title>Roma</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/Flag-of-Italy.ico"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <link rel="stylesheet" href="estilos.css">
+        
+        <header class="head">
+        <h1><b>Roma</b></h1>
+        <figure>
+            <img src="images/roma.png">
+            <figcaption style="color: blue;" aria-setsize="1">
+              Coliseum
+            </figcaption>
+            <br>
+          </figure>
+        <br>
+    </header>
+        
+    <nav style="font-size:small;">
+        <a href="index.html"><i class="material-icons">list</i> <b>Introdução</b> 
+        </a> | <a href="local.html"><i class="material-icons">location_on</i>Localização</a> | 
+        <a href="multimedia.html"><i class="material-icons">filter</i>Multimédia</a> | 
+        <a href="info.html"><i class="material-icons">perm_device_information</i>Informações</a> | 
+        <a href="../index.html"><i class="material-icons">home</i>Home</a> | 
+        <a href="quizz.html"><i class="material-icons">warning</i>Quizz</a>| 
+        <a href="comentarios.html"><i class="material-icons">forum</i>Comentários</a>| 
+        <a href="html5-css.html"><i class="material-icons">more_vert</i>Css</a>
+    </nav>
+    
+    <hr>
+    <main>
+        <section>
+        <h3 class="titulo">Multimédia</h3>
+       
+        <picture><a href="images/fontana-di-trevi_grande.jpg" target="foto"><img src="images/fontana-di-trevi_pequena.jpg" alt="fontana-di-trevi"><p><caption>fontana di trevi</caption></p></a></picture>
+        <picture><a href="images/f1_grande.jpg" target="foto"><img src="images/f1_pequena.jpg" alt="f1"><p><caption>Vaticano</caption></p></a></picture>
+        
+        <iframe  name="foto" width="800" height="553" ></iframe>
+        <hr>
+        <h3>Video de Roma</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oSexfR0Ubzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <h2 align="center"> Roma</h2>
+       <h4 align="center"> João da Silva, Sílvio</h4>
+        <p align="center"> 
+            <i>Cidade Eterna, Capital do Mundo <br>
+            Urbe de gloriosas tradições, <br>
+            Sabes inebriar os carações <br>
+            Dos que te querem conhecer a fundo.<br>
+            <br>
+            Tua linfa refresca o sitibundo <br>
+            Que chega de longinquas regiões: <br>
+            Japão, Brasil, Uganda, Camarões, <br>
+            Seja ele romeiro ou vagabundo, <br>
+            <br>
+            Parques, jardins, arlérias, quelhas, pontes, <br>
+            Belas estátuas e abundantes fontes <br>
+            Demonstram a pericia do teu povo. <br>
+            <br>
+            Igrejas, Capitólio e Coliseu <br>
+            Causam enlevo ao crente e ao ateu. <br>
+            Pos isso, Roma, com ardor te louvo. <br>
+        </i>
+        </p>
+        <br>
+        <br>
+
+
+    </section>
+    <hr>
+    
+
+
+        <svg height="400" width="400" viewBox="0 0 400 400">
+            
+              <path d="M 127 200 L 127 60" stroke="green" stroke-width="2"
+                  fill="none" />
+
+             <path d="M 173 200 L 173 60" stroke="red" stroke-width="2"
+                  fill="none" />
+
+                  <path d="M150 0 L75 200 L225 200 Z"
+                  stroke="lightgrey" stroke-width="2" 
+                   fill="none" id="theMotionPath"/>
+
+                   <circle cx="" cy="" r="5" fill="white">
+
+                    <!-- Define the motion path animation -->
+                    <animateMotion dur="6s" repeatCount="indefinite">
+                       <mpath xlink:href="#theMotionPath"/>
+                    </animateMotion>
+                </circle>
+          </svg> 
+
+        
+        <br>
+
+    </section>
+
+    <section>
+        <figure>
+          <img src="images/rome1.jpg" class="relativo">
+          <figcaption class="texto_absoluto">Rome</figcaption>
+        </figure>
+      
+        <figure>
+          <img src="images/rome2.jpg" class="absoluto">
+          <figcaption class="texto_relativo"></figcaption>
+        </figure>
+        <hr>
+      
+      
+    </section>
+
+    <section>
+        <svg width="600" height="350">
+            <g transform="translate(100,100)"> 
+              <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:20; visibility:hidden"> <a href="index.html">Introdução</a>
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+              </text> 
+          
+              <text id="TextElement" x="0" y="10" style="font-family:Verdana;font-size:7; visibility:hidden"><a href="local.html">Localização</a> 
+                  <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                  <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                  <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+                </text>
+          
+              <text id="TextElement" x="43" y="10" style="font-family:Verdana;font-size:7; visibility:hidden"><a href="multimedia.html">Multimédia</a> 
+                  <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                  <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                  <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+              </text>
+          
+          
+              <text id="TextElement" x="89" y="10" style="font-family:Verdana;font-size:7; visibility:hidden"><a href="quizz.html">Quizz</a> 
+                  <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                  <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                  <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+              </text>
+          
+              <text id="TextElement" x="0" y="20" style="font-family:Verdana;font-size:8; visibility:hidden"><a href="info.html">Informações</a> 
+                  <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                  <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                  <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+              </text>
+          
+              <text id="TextElement" x="58" y="20" style="font-family:Verdana;font-size:8; visibility:hidden"><a href="comentarios.html">Comentários</a> 
+                  <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                  <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                  <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                  <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+              </text>
+            </g> 
+          </svg>
+        </section>
+        </main>
+
+        <footer>
+            <hr>
+            <p>Rita dos Santos, 22002611, ULHT, 2ºano</p>
+        </footer>
+
+    </body>
+</html>
