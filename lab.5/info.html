@@ -5,77 +5,118 @@
         <meta name="author" content="Rita Santos">
         <meta name="keywords" content="palavras chave">
         <meta name="description" content="Website sobre Lisboa">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
         <title>Roma</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/Flag-of-Italy.ico"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-    <body>
-        <body style="background-color:plum"></body>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(101, 103, 221);
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(255, 255, 255);
+        }
+
+        body {
+            background-color: plum;
+            margin: auto;
+            width: 100%;
+        }
+    </style>
+
+    <body class="grid-container">
+        <link rel="stylesheet" href="estilos.css">
+
+        <header class="head">
         <h1><b>Roma</b></h1>
-        <img src="images/roma.png">
-        <br>
-        
-        <a href="index.html">Introdução</a> | <a href="local.html">Localização</a> | <a href="multimedia.html"><b>Multimédia</b></a> | <a href="info.html">Informações</a> | <a href="../index.html">Home</a> | <a href="quizz.html">Quizz</a>| <a href="comentarios.html">Comentários</a>
         <hr>
-        <h3>Multimédia</h3>
-       
-        <picture><a href="images/fontana-di-trevi_grande.jpg" target="foto"><img src="images/fontana-di-trevi_pequena.jpg" alt="fontana-di-trevi"><p><caption>fontana di trevi</caption></p></a></picture>
-        <picture><a href="images/f1_grande.jpg" target="foto"><img src="images/f1_pequena.jpg" alt="f1"><p><caption>Vaticano</caption></p></a></picture>
-        
-        <iframe  name="foto" width="800" height="553" ></iframe>
-        <hr>
-        <h3>Video de Roma</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/oSexfR0Ubzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       <h2 align="center"> Roma</h2>
-       <h4 align="center"> João da Silva, Sílvio</h4>
-        <p align="center"> 
-            <i>Cidade Eterna, Capital do Mundo <br>
-            Urbe de gloriosas tradições, <br>
-            Sabes inebriar os carações <br>
-            Dos que te querem conhecer a fundo.<br>
+        <figure>
+            <img src="images/roma.png">
+            <figcaption style="color: blue;" aria-setsize="1">
+              Coliseum
+            </figcaption>
             <br>
-            Tua linfa refresca o sitibundo <br>
-            Que chega de longinquas regiões: <br>
-            Japão, Brasil, Uganda, Camarões, <br>
-            Seja ele romeiro ou vagabundo, <br>
-            <br>
-            Parques, jardins, arlérias, quelhas, pontes, <br>
-            Belas estátuas e abundantes fontes <br>
-            Demonstram a pericia do teu povo. <br>
-            <br>
-            Igrejas, Capitólio e Coliseu <br>
-            Causam enlevo ao crente e ao ateu. <br>
-            Pos isso, Roma, com ardor te louvo. <br>
-        </i>
-        </p>
+          </figure>
         <br>
-        <br>
+        </header>
 
 
-        <svg height="400" width="400" viewBox="0 0 400 400">
-            
-              <path d="M 127 200 L 127 60" stroke="green" stroke-width="2"
-                  fill="none" />
+        <nav style="font-size:small;" class="nav">
+            <div class="div1">
+            <a href="index.html"><i class="material-icons">list</i> <b>Introdução</b> </a> 
+            <a href="local.html"><i class="material-icons">location_on</i>Localização</a> 
+            <a href="multimedia.html"><i class="material-icons">filter</i>Multimédia</a> 
+            <a href="info.html"><i class="material-icons">perm_device_information</i>Informações</a> 
+            </div>  
+            <div class="div2">
+            <a href="quizz.html"><i class="material-icons">warning</i>Quizz</a>
+            <a href="comentarios.html"><i class="material-icons">forum</i>Comentários</a> 
+            <a href="html5-css.html"><i class="material-icons">more_vert</i>Css</a> 
+            </div>
+            <div class="div3">
+            <a href="../index.html"><i class="material-icons">home</i>Home</a> 
+            </div>
+        </nav>
 
-             <path d="M 173 200 L 173 60" stroke="red" stroke-width="2"
-                  fill="none" />
-
-                  <path d="M150 0 L75 200 L225 200 Z"
-                  stroke="lightgrey" stroke-width="2" 
-                   fill="none" id="theMotionPath"/>
-
-                   <circle cx="" cy="" r="5" fill="white">
-
-                    <!-- Define the motion path animation -->
-                    <animateMotion dur="6s" repeatCount="indefinite">
-                       <mpath xlink:href="#theMotionPath"/>
-                    </animateMotion>
-                </circle>
-          </svg> 
+        <main class="main">
 
         <hr>
-        <br>
+        <section>
+        <h3 class="titulo">Informações</h3>
+        <caption>Informações sobre Roma </caption>
+        <ul>
+        <table border="1" frame="hsides" rules="border" cellpading = "4" cellspacing = "4" bgcolor = "FBFBFB" align="left">
+            <tr>
+                <th rowspan="3">
+                    Geografia
+                    <td>Area</td><td>1 285,3 km²</td>
+                    <tr><td>Região</td><td>Roma</td></tr>
+                    <tr><td>País</td><td>Itália</td></tr>
+                </th>
+            </tr>
 
-        <svg width="600" height="600">
+            <tr>
+                <th rowspan="2">
+                    Demografia
+                    <td>População</td><td>2 872 800</td>
+                    <tr><td>Densidade populacional</td><td>1 981 hab./km²</td></tr>
+
+                </th>
+            </tr>
+
+            <tr> <th>Website</th><td><a href="www.comune.roma.it"> www.comune.roma.it </a></td></tr>
+
+        </table>
+         </ul>
+         <br>
+        </section>
+        <br>
+         <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+
+        <section>
+            <br>
+         <svg width="600" height="350">
             <g transform="translate(100,100)"> 
               <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:20; visibility:hidden"> <a href="index.html">Introdução</a>
                 <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
@@ -121,5 +162,31 @@
               </text>
             </g> 
           </svg>
+        </section>
+        </main>
+
+        <aside class="aside1">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <figure>
+              <img src="images/roman_forum.jpg">
+              <img src="images/rome-places.jpg">
+            </figure>
+    
+            <p style="color: whitesmoke ; margin-right: 100px;">Roma também é conhecida como "cidade eterna".
+                <br>
+                Antes de Roma ser a capital de Itália, a capital era Turim.
+              </p>
+    
+          </aside>
+
+        <footer class="footer">
+            <hr>
+            <p>Rita dos Santos, 22002611, ULHT, 2ºano</p>
+        </footer>
     </body>
 </html>

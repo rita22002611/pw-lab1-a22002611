@@ -5,11 +5,12 @@
         <meta name="author" content="Rita Santos">
         <meta name="keywords" content="palavras chave">
         <meta name="description" content="Website sobre Lisboa">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
         <title>Roma</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/Flag-of-Italy.ico"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-    <body>
+    <body class="grid-container">
       <link rel="stylesheet" href="estilos.css">
         
       <header class="head">
@@ -25,19 +26,25 @@
         <br>
       </header>
 
-      <nav style="font-size:small;">
-        <a href="index.html"><i class="material-icons">list</i> <b>Introdução</b> 
-        </a> | <a href="local.html"><i class="material-icons">location_on</i>Localização</a> | 
-        <a href="multimedia.html"><i class="material-icons">filter</i>Multimédia</a> | 
-        <a href="info.html"><i class="material-icons">perm_device_information</i>Informações</a> | 
-        <a href="../index.html"><i class="material-icons">home</i>Home</a> | 
-        <a href="quizz.html"><i class="material-icons">warning</i>Quizz</a>| 
-        <a href="comentarios.html"><i class="material-icons">forum</i>Comentários</a>| 
-        <a href="html5-css.html"><i class="material-icons">more_vert</i>Css</a>
+      <nav style="font-size:small;" class="nav">
+        <div class="div1">
+        <a href="index.html"><i class="material-icons">list</i> <b>Introdução</b> </a> 
+        <a href="local.html"><i class="material-icons">location_on</i>Localização</a> 
+        <a href="multimedia.html"><i class="material-icons">filter</i>Multimédia</a> 
+        <a href="info.html"><i class="material-icons">perm_device_information</i>Informações</a> 
+        </div>  
+        <div class="div2">
+        <a href="quizz.html"><i class="material-icons">warning</i>Quizz</a>
+        <a href="comentarios.html"><i class="material-icons">forum</i>Comentários</a> 
+        <a href="html5-css.html"><i class="material-icons">more_vert</i>Css</a> 
+        </div>
+        <div class="div3">
+        <a href="../index.html"><i class="material-icons">home</i>Home</a> 
+        </div>
     </nav>
 
         
-      <main>
+      <main class="main">
         
           <ul>
           <h3 class="titulo">HTML5 e CSS</h3>
@@ -188,43 +195,43 @@
                 <tbody>
                   <tr>
                     <td>Universal</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Aplica o estilo a todos os elementos da pagina</td>
                   </tr>
 
                   <tr>
                     <td>Tipo</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>usa o nome do marcador a estilizar</td>
                   </tr>
 
                   <tr>
                     <td>Classe</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Associa um nome a um estilo</td>
                   </tr>
 
                   <tr>
                     <td>Id</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Permite identificar univocamente um elemento</td>
                   </tr>
 
                   <tr>
                     <td>Atributo</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Aplicam-se atributos a elementos</td>
                   </tr>
 
                   <tr>
                     <td>Pseudo-classe</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Associado ao estado de um elemento</td>
                   </tr>
 
                   <tr>
                     <td>Pseudo-Elementos</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Aplicam-se a partes de elementos</td>
                   </tr>
 
@@ -269,25 +276,25 @@
                 <tbody>
                   <tr>
                     <td>Descendentes</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>são sepadados por espaço</td>
                   </tr>
 
                   <tr>
                     <td>Filhos</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Através do uso de ">"</td>
                   </tr>
 
                   <tr>
                     <td>adjacentes</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Através do uso de "~"</td>
                   </tr>
 
                   <tr>
                     <td>imediatamente adjacentes</td>
-                    <td>❌</td>
+                    <td>✔️</td>
                     <td>Através do uso de "+"</td>
                   </tr>
 
@@ -349,7 +356,27 @@
 
         </main>
 
-          <footer>
+
+        <aside class="aside1">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <figure>
+            <img src="images/roman_forum.jpg">
+            <img src="images/rome-places.jpg">
+          </figure>
+  
+          <p style="color: whitesmoke ; margin-right: 100px;">Roma também é conhecida como "cidade eterna".
+              <br>
+              Antes de Roma ser a capital de Itália, a capital era Turim.
+            </p>
+  
+        </aside>
+
+          <footer class="footer">
             <hr>
             <p>Rita dos Santos, 22002611, ULHT, 2ºano</p>
         </footer>

@@ -5,18 +5,90 @@
         <meta name="author" content="Rita Santos">
         <meta name="keywords" content="palavras chave">
         <meta name="description" content="Website sobre Lisboa">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
         <title>Roma</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/Flag-of-Italy.ico"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <style>
+          img.img1 {
+              width: 300px;
+              height: 200px;
+              transition: width 2s, height 4s, transform 2s;
+          }
+
+          img.img1:hover {
+              width: 200px;
+              height: 100px;
+          }
+
+          img.img2 {
+              width: 300px;
+              height: 200px;
+              transition: width 2s, height 4s, transform 60 seg;
+          }
+
+          img.img2:hover {
+              width: 300px;
+              height: 200px;
+              margin-left: 50px;
+              transition-duration: 5s;
+          }
+
+          img.img3 {
+              width: 300px;
+              height: 200px;
+
+              transition: width 2s, height 6s, transform 6s;
+          }
+
+          img.img3:hover {
+              width: 300px;
+              height: 200px;
+              transform: rotate(412deg);
+              transition-duration: 5s;
+          }
+
+
+      </style>
+
     </head>
-    <body>
-        <body style="background-color:plum"></body>
-        <h1><b>Roma</b></h1>
-        <img src="images/roma.png">
-        <br>
+    <body class="grid-container">
+        <link rel="stylesheet" href="estilos.css">
         
-        <a href="index.html">Introdução</a> | <a href="local.html">Localização</a> | <a href="multimedia.html"><b>Multimédia</b></a> | <a href="info.html">Informações</a> | <a href="../index.html">Home</a> | <a href="quizz.html">Quizz</a>| <a href="comentarios.html">Comentários</a>
-        <hr>
-        <h3>Multimédia</h3>
+        <header class="head">
+        <h1><b>Roma</b></h1>
+        <figure>
+            <img src="images/roma.png">
+            <figcaption style="color: blue;" aria-setsize="1">
+              Coliseum
+            </figcaption>
+            <br>
+          </figure>
+        <br>
+    </header>
+        
+    <nav style="font-size:small;" class="nav">
+      <div class="div1">
+      <a href="index.html"><i class="material-icons">list</i> <b>Introdução</b> </a> 
+      <a href="local.html"><i class="material-icons">location_on</i>Localização</a> 
+      <a href="multimedia.html"><i class="material-icons">filter</i>Multimédia</a> 
+      <a href="info.html"><i class="material-icons">perm_device_information</i>Informações</a> 
+      </div>  
+      <div class="div2">
+      <a href="quizz.html"><i class="material-icons">warning</i>Quizz</a>
+      <a href="comentarios.html"><i class="material-icons">forum</i>Comentários</a> 
+      <a href="html5-css.html"><i class="material-icons">more_vert</i>Css</a> 
+      </div>
+      <div class="div3">
+      <a href="../index.html"><i class="material-icons">home</i>Home</a> 
+      </div>
+  </nav>
+    
+    
+    <main class="main">
+        <section>
+        <h3 class="titulo">Multimédia</h3>
        
         <picture><a href="images/fontana-di-trevi_grande.jpg" target="foto"><img src="images/fontana-di-trevi_pequena.jpg" alt="fontana-di-trevi"><p><caption>fontana di trevi</caption></p></a></picture>
         <picture><a href="images/f1_grande.jpg" target="foto"><img src="images/f1_pequena.jpg" alt="f1"><p><caption>Vaticano</caption></p></a></picture>
@@ -51,6 +123,11 @@
         <br>
 
 
+    </section>
+    <hr>
+    
+
+
         <svg height="400" width="400" viewBox="0 0 400 400">
             
               <path d="M 127 200 L 127 60" stroke="green" stroke-width="2"
@@ -72,10 +149,54 @@
                 </circle>
           </svg> 
 
-        <hr>
+        
         <br>
 
-        <svg width="600" height="600">
+    </section>
+
+    <section>
+        <figure>
+          <img src="images/rome1.jpg" class="relativo">
+          <figcaption class="texto_absoluto">Rome</figcaption>
+        </figure>
+      
+        <figure>
+          <img src="images/rome2.jpg" class="absoluto">
+          <figcaption class="texto_relativo"></figcaption>
+        </figure>
+        
+      
+      
+    </section>
+
+    <section>
+
+      <div>
+          <img src="images/GettyImages.jpg" class = "img1">
+          <img src="images/GettyImages.jpg" class = "img2">
+          <img src="images/GettyImages.jpg" class = "img3">
+
+      </div>
+      <div>
+          <img src="images/roma4.jpg" class = "img1">
+          <img src="images/roma4.jpg" class = "img2">
+          <img src="images/roma4.jpg" class = "img3">
+      </div>
+      <div>
+          <img src="images/images.jpg" class = "img1">
+          <img src="images/images.jpg" class = "img2">
+          <img src="images/images.jpg" class = "img3">
+      </div>
+      <div>
+          <img src="images/super.jpg" class = "img1">
+          <img src="images/super.jpg" class = "img2">
+          <img src="images/super.jpg" class = "img3">
+      </div>
+  </section>
+
+    <section>
+      <hr>
+        <svg width="600" height="350">
             <g transform="translate(100,100)"> 
               <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:20; visibility:hidden"> <a href="index.html">Introdução</a>
                 <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
@@ -121,5 +242,35 @@
               </text>
             </g> 
           </svg>
+        </section>
+
+        
+        </main>
+
+
+        <aside class="aside1">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <figure>
+            <img src="images/roman_forum.jpg">
+            <img src="images/rome-places.jpg">
+          </figure>
+  
+          <p style="color: whitesmoke ; margin-right: 100px;">Roma também é conhecida como "cidade eterna".
+              <br>
+              Antes de Roma ser a capital de Itália, a capital era Turim.
+            </p>
+  
+      </aside>
+
+        <footer class="footer">
+            <hr>
+            <p>Rita dos Santos, 22002611, ULHT, 2ºano</p>
+        </footer>
+
     </body>
 </html>

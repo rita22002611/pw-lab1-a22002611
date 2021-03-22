@@ -5,18 +5,50 @@
         <meta name="author" content="Rita Santos">
         <meta name="keywords" content="palavras chave">
         <meta name="description" content="Website sobre Lisboa">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
         <title>Roma</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/Flag-of-Italy.ico"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-    <body>
-        <body style="background-color:plum"></body>
+    <body class="grid-container">
+      <link rel="stylesheet" href="estilos.css">
+
+
+        <header class="head">
         <h1><b>Roma</b></h1>
         <hr>
-        <img src="images/roma.png">
+        <figure>
+          <img src="images/roma.png">
+          <figcaption style="color: blue;" aria-setsize="1">
+            Coliseum
+          </figcaption>
+          <br>
+        </figure>
         <br>
-        <a href="index.html"> <b>Introdução</b> </a> | <a href="local.html">Localização</a> | <a href="multimedia.html">Multimédia</a> | <a href="info.html">Informações</a> | <a href="../index.html">Home</a> | <a href="quizz.html">Quizz</a>| <a href="comentarios.html">Comentários</a>
+      </header>
 
-        <h3>Quizz</h3>
+      <nav style="font-size:small;" class="nav">
+        <div class="div1">
+        <a href="index.html"><i class="material-icons">list</i> <b>Introdução</b> </a> 
+        <a href="local.html"><i class="material-icons">location_on</i>Localização</a> 
+        <a href="multimedia.html"><i class="material-icons">filter</i>Multimédia</a> 
+        <a href="info.html"><i class="material-icons">perm_device_information</i>Informações</a> 
+        </div>  
+        <div class="div2">
+        <a href="quizz.html"><i class="material-icons">warning</i>Quizz</a>
+        <a href="comentarios.html"><i class="material-icons">forum</i>Comentários</a> 
+        <a href="html5-css.html"><i class="material-icons">more_vert</i>Css</a> 
+        </div>
+        <div class="div3">
+        <a href="../index.html"><i class="material-icons">home</i>Home</a> 
+        </div>
+    </nav>
+    
+    
+      <main class="main">
+        <section>
+          <hr>
+        <h3 class="titulo">Quizz</h3>
 
         <form action_"GET" autocomplete="on">
             <fieldset>
@@ -108,6 +140,8 @@
         </fieldset>
         </form>
 
+      </section>
+
         
 
 
@@ -116,8 +150,8 @@
         <br>
         <hr>
         <br>
-
-        <svg width="600" height="600">
+      <section>
+        <svg width="600" height="350">
             <g transform="translate(100,100)"> 
               <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:20; visibility:hidden"> <a href="index.html">Introdução</a>
                 <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
@@ -163,5 +197,33 @@
               </text>
             </g> 
           </svg>
+        </section>
+
+      </main>
+
+      <aside class="aside1">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <figure>
+          <img src="images/roman_forum.jpg">
+          <img src="images/rome-places.jpg">
+        </figure>
+
+        <p style="color: whitesmoke ; margin-right: 100px;">Roma também é conhecida como "cidade eterna".
+            <br>
+            Antes de Roma ser a capital de Itália, a capital era Turim.
+          </p>
+
+      </aside>
+
+      <footer class="footer">
+          <hr>
+          <p>Rita dos Santos, 22002611, ULHT, 2ºano</p>
+      </footer>
+
 </body>
 </html>
